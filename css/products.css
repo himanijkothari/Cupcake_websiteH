@@ -1,0 +1,102 @@
+.products{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+body
+{
+    color: #612940;
+
+}
+
+
+
+@media (min-width : 400px)
+{
+    .products .grid{
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (min-width : 400px)
+{
+
+.products .cake-grid{
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+}
+
+
+@media (min-width : 750px)
+{
+    .products .grid{
+
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
+@media (min-width : 750px)
+{
+.products .cake-grid{
+
+    grid-template-columns: repeat(3,1fr);
+}
+}
+
+@media (min-width : 1400px)
+{
+.products .grid{
+
+    grid-template-columns: repeat(4,1fr);
+}
+}
+
+
+@media (min-width : 1400px)
+{
+.products .cake-grid{
+
+    grid-template-columns: repeat(4,1fr);
+}
+}
+
+.products .product-item
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+} 
+
+.products .grid .product-item img{
+    
+    width:  300px;
+    height: 300px;
+    background-size: cover;
+} 
+
+.products .cake-grid .product-item img{
+
+    width:  300px;
+    height: 300px;
+    background-size: cover;
+} 
+
+.products .grid .product-item h3,p{
+
+    font-size: 16px;
+ }
+
+
+.products h2,h3{
+
+   text-align: center;
+}
+
+.products h2{
+
+    margin-top: 16px;
+}

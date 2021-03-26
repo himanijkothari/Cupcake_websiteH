@@ -1,0 +1,20 @@
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+  }
+
+
+  .footer .footer-text-right {
+
+    padding-left:550px;
+    margin-top:20px;
+    float:right;
+    font-size:var(--space-small);
+    word-spacing:8px;
+  }
+
+  .footer .footer-text-right a{
+    color: #331F28;
+
+  }

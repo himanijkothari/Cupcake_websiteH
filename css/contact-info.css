@@ -1,0 +1,36 @@
+
+.description{
+
+    padding: 24px;  
+   
+}
+
+.description p{
+
+    font-size: 18px;
+    color: #612940;
+}
+
+
+.contact-info h2{
+    
+    text-decoration: underline;
+    text-align: center;
+    color: #612940;
+}
+
+.contact-info{
+
+    margin-top: 40px;
+}
+
+.contact-info .description .whatsapp a{
+
+    color: #612940;
+}
+
+.contact-info .description .whatsapp a:hover{
+
+    background-color: black;
+    color:white;
+}

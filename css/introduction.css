@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.introduction p{
+
+    font-family: Dancing Script;
+    position: absolute;
+    /* left:25%;
+    bottom:50%; 
+    margin-top:-150px;
+    margin-left:-150px; */
+    background: rgb(0, 0, 0); /*Fallback color */
+    background: rgba(0, 0, 0, 0.5); /*Black background with 0.5 opacity */
+    color: #F487B6;
+    padding: 24px;  
+    font-size: 28px;
+  }
